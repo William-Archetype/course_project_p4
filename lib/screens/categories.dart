@@ -1,20 +1,27 @@
 import 'package:course_project_4/data/dummy_data.dart';
 import 'package:course_project_4/models/category.dart';
+import 'package:course_project_4/models/meal.dart';
 import 'package:course_project_4/screens/meals.dart';
 import 'package:course_project_4/widgets/category_grid_item.dart';
 import 'package:flutter/material.dart';
 
 class CategoriesScreen extends StatelessWidget {
-  const CategoriesScreen({super.key});
+  const CategoriesScreen({
+    super.key,
+    required this.onToggleFavoutite,
+  });
+
+  final void Function(Meal meal) onToggleFavoutite;
 
   void _selectCategory(BuildContext context, Category category) {
     final filteredMeals = dummyMeals.where((meal) => meal.categories.contains(category.id)).toList();
 
     Navigator.push(context, MaterialPageRoute( // Navigator.of(context).push(....)
-        builder: (context) => MealsScreen(
-          title: category.title,
-          meals: filteredMeals,
-          )
+      builder: (context) => MealsScreen(
+        title: category.title,
+        meals: filteredMeals,
+        onToggleFavoutite: onToggleFavoutite,
+        ),
       )
     );
   }
