@@ -59,7 +59,7 @@
       "name": "flutter",
       "rootUri": "file:///Users/william/Dev/frameworks/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.3"
     },
     {
       "name": "flutter_lints",
@@ -68,10 +68,16 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "flutter_riverpod",
+      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/flutter_riverpod-2.6.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/william/Dev/frameworks/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.3"
     },
     {
       "name": "google_fonts",
@@ -93,21 +99,21 @@
     },
     {
       "name": "leak_tracker",
-      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/leak_tracker-10.0.0",
+      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/leak_tracker-10.0.5",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.2"
     },
     {
       "name": "leak_tracker_flutter_testing",
-      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-2.0.1",
+      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.5",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.2"
     },
     {
       "name": "leak_tracker_testing",
-      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/leak_tracker_testing-2.0.1",
+      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.2"
     },
     {
       "name": "lints",
@@ -123,13 +129,13 @@
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/material_color_utilities-0.8.0",
+      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/material_color_utilities-0.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/meta-1.11.0",
+      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/meta-1.15.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -188,6 +194,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "riverpod",
+      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/riverpod-2.6.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///Users/william/Dev/frameworks/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -204,6 +216,12 @@
       "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "state_notifier",
+      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/state_notifier-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "stream_channel",
@@ -225,9 +243,9 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/test_api-0.6.1",
+      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/test_api-0.7.2",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.2"
     },
     {
       "name": "transparent_image",
@@ -249,9 +267,9 @@
     },
     {
       "name": "vm_service",
-      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/vm_service-13.0.0",
+      "rootUri": "file:///Users/william/.pub-cache/hosted/pub.dev/vm_service-14.2.5",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.3"
     },
     {
       "name": "web",
@@ -272,7 +290,10 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-12-02T09:56:06.679002Z",
+  "generated": "2024-12-10T11:33:06.870770Z",
   "generator": "pub",
-  "generatorVersion": "3.3.4"
+  "generatorVersion": "3.5.4",
+  "flutterRoot": "file:///Users/william/Dev/frameworks/flutter",
+  "flutterVersion": "3.24.5",
+  "pubCache": "file:///Users/william/.pub-cache"
 }
